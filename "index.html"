@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1 class="logo">My Portfolio</h1>
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="about">
+		<div class="container">
+			<h2>About Me</h2>
+			<p>Hi, I'm [Your Name]. I'm a [Your Profession] with [Number of Years] years of experience. I specialize in [Your Skills].</p>
+		</div>
+	</section>
+	<section id="projects">
+		<div class="container">
+			<h2>My Projects</h2>
+			<div class="project-item">
+				<img src="project-1.jpg" alt="Project 1">
+				<h3>Project 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget turpis et sem venenatis faucibus. Fusce tristique massa vel bibendum rhoncus.</p>
+			</div>
+			<div class="project-item">
+				<img src="project-2.jpg" alt="Project 2">
+				<h3>Project 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget turpis et sem venenatis faucibus. Fusce tristique massa vel bibendum rhoncus.</p>
+			</div>
+			<div class="project-item">
+				<img src="project-3.jpg" alt="Project 3">
+				<h3>Project 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget turpis et sem venenatis faucibus. Fusce tristique massa vel bibendum rhoncus.</p>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<h2>Contact Me</h2>
+			<p>You can contact me at [Your Email Address].</p>
+			<ul class="social-links">
+				<li><a href="[Your Social Media Link]"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="[Your Social Media Link]"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="[Your Social Media Link]"><i class="fab fa-linkedin"></i></a></li>
+				<li><a href="[Your Social Media Link]"><i class="fab fa-github"></i></a></li>
+			</ul>
+		</div>
+	</section>
+	<script src="script.js"></script>
+</body>
+</html>
